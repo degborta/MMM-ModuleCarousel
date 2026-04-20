@@ -2,8 +2,8 @@
 	display: flex;
 	justify-content: center;
 	gap: 8px;
-	padding: 4px 0 0;
-	margin-top: -10px;
+	padding: 0 0 20px;
+	margin-top: -20px;
 }
 
 .mmm-carousel-dot {

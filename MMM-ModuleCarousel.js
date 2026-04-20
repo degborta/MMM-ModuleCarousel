@@ -46,17 +46,13 @@ Module.register("MMM-ModuleCarousel", {
 				}
 			}
 
-			// Measure widths before hiding — hidden elements report offsetWidth 0.
-			const maxWidth = Math.max(...members.map(m => {
-				const el = document.getElementById(m.identifier);
-				return el ? el.offsetWidth : 0;
-			}));
-
-			if (maxWidth > 0) {
-				const container = this._getRegionContainer(members[0]);
-				if (container) {
-					const current = parseInt(container.style.minWidth) || 0;
-					if (maxWidth > current) container.style.minWidth = maxWidth + "px";
+			// Snapshot container width while all members are still visible,
+			// then apply it as min-width so the column never shrinks on toggle.
+			const container = this._getRegionContainer(members[0]);
+			if (container && container.offsetWidth > 0) {
+				const existing = parseInt(container.style.minWidth) || 0;
+				if (container.offsetWidth > existing) {
+					container.style.minWidth = container.offsetWidth + "px";
 				}
 			}
 

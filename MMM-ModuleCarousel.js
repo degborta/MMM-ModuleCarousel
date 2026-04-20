@@ -46,17 +46,9 @@ Module.register("MMM-ModuleCarousel", {
 				}
 			}
 
-			// Snapshot container width while all members are still visible,
-			// then apply it as min-width so the column never shrinks on toggle.
 			const container = this._getRegionContainer(members[0]);
-			if (container && container.offsetWidth > 0) {
-				const existing = parseInt(container.style.minWidth) || 0;
-				if (container.offsetWidth > existing) {
-					container.style.minWidth = container.offsetWidth + "px";
-				}
-			}
 
-			this.groupStates[groupIndex] = { members, current: 0, transition, indicator };
+			this.groupStates[groupIndex] = { members, current: 0, transition, indicator, container };
 
 			members.forEach((mod, i) => {
 				if (i === 0) return;
@@ -131,8 +123,16 @@ Module.register("MMM-ModuleCarousel", {
 
 	_advance(groupIndex) {
 		const state = this.groupStates[groupIndex];
-		const { members, current, transition, indicator } = state;
+		const { members, current, transition, indicator, container } = state;
 		const next = (current + 1) % members.length;
+
+		// Current module is still visible — grow min-width if it's wider than before.
+		if (container && container.offsetWidth > 0) {
+			const existing = parseInt(container.style.minWidth) || 0;
+			if (container.offsetWidth > existing) {
+				container.style.minWidth = container.offsetWidth + "px";
+			}
+		}
 
 		members[current].hide(transition, () => {
 			members[next].show(transition);

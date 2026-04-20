@@ -192,3 +192,36 @@
 [  110062ms] [LOG] MMM-ResRobot received a socket notification: DEPARTURES - Payload: [object Object] @ http://192.168.86.44:8080/modules/MMM-ResRobot/MMM-ResRobot.js:77
 [  110322ms] [LOG] MMM-ResRobot received a socket notification: DEPARTURES - Payload: [object Object] @ http://192.168.86.44:8080/modules/MMM-ResRobot/MMM-ResRobot.js:77
 [  110323ms] [LOG] MMM-ResRobot received a socket notification: DEPARTURES - Payload: [object Object] @ http://192.168.86.44:8080/modules/MMM-ResRobot/MMM-ResRobot.js:77
+[  145184ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://192.168.86.44:8080/socket.io/?EIO=4&transport=polling&t=qb58my1q:0
+[  145444ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://192.168.86.44:8080/socket.io/?EIO=4&transport=polling&t=qb5i2n0r:0
+[  145515ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://192.168.86.44:8080/socket.io/?EIO=4&transport=polling&t=qb5v65fp:0
+[  149903ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://192.168.86.44:8080/socket.io/?EIO=4&transport=polling&t=qb8vsx71:0
+[  150159ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://192.168.86.44:8080/socket.io/?EIO=4&transport=polling&t=qb942iet:0
+[  150188ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://192.168.86.44:8080/socket.io/?EIO=4&transport=polling&t=qb9bgnug:0
+[  153743ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://192.168.86.44:8080/defaultmodules/newsfeed//newsfeed.njk?s=1776721847990:0
+[  153986ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://192.168.86.44:8080/socket.io/?EIO=4&transport=polling&t=qbcmn31p:0
+[  157231ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://192.168.86.44:8080/socket.io/?EIO=4&transport=polling&t=qbejioxb:0
+[  157242ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://192.168.86.44:8080/socket.io/?EIO=4&transport=polling&t=qbeka2ja:0
+[  161059ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://192.168.86.44:8080/socket.io/?EIO=4&transport=polling&t=qbhhwoon:0
+[  163693ms] [INFO] [calendar] sorting events count=0 @ http://192.168.86.44:8080/defaultmodules/calendar/calendar.js:564
+[  163693ms] [INFO] [calendar] slicing events total maxCount=10 @ http://192.168.86.44:8080/defaultmodules/calendar/calendar.js:598
+[  163730ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://192.168.86.44:8080/defaultmodules/newsfeed//newsfeed.njk?s=1776721857989:0
+[  163994ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://192.168.86.44:8080/socket.io/?EIO=4&transport=polling&t=qbk04f2z:0
+[  178683ms] [INFO] [calendar] sorting events count=0 @ http://192.168.86.44:8080/defaultmodules/calendar/calendar.js:564
+[  179123ms] [LOG] MMM-ResRobot received a socket notification: DEPARTURES - Payload: [object Object] @ http://192.168.86.44:8080/modules/MMM-ResRobot/MMM-ResRobot.js:77
+[  179124ms] [LOG] MMM-ResRobot received a socket notification: DEPARTURES - Payload: [object Object] @ http://192.168.86.44:8080/modules/MMM-ResRobot/MMM-ResRobot.js:77
+[  179449ms] [LOG] MMM-ResRobot received a socket notification: DEPARTURES - Payload: [object Object] @ http://192.168.86.44:8080/modules/MMM-ResRobot/MMM-ResRobot.js:77
+[  179457ms] [LOG] MMM-ResRobot received a socket notification: DEPARTURES - Payload: [object Object] @ http://192.168.86.44:8080/modules/MMM-ResRobot/MMM-ResRobot.js:77
+[  223681ms] [INFO] [calendar] sorting events count=0 @ http://192.168.86.44:8080/defaultmodules/calendar/calendar.js:564
+[  223681ms] [INFO] [calendar] slicing events total maxCount=10 @ http://192.168.86.44:8080/defaultmodules/calendar/calendar.js:598
+[  239151ms] [LOG] MMM-ResRobot received a socket notification: DEPARTURES - Payload: [object Object] @ http://192.168.86.44:8080/modules/MMM-ResRobot/MMM-ResRobot.js:77
+[  239153ms] [LOG] MMM-ResRobot received a socket notification: DEPARTURES - Payload: [object Object] @ http://192.168.86.44:8080/modules/MMM-ResRobot/MMM-ResRobot.js:77
+[  239465ms] [LOG] MMM-ResRobot received a socket notification: DEPARTURES - Payload: [object Object] @ http://192.168.86.44:8080/modules/MMM-ResRobot/MMM-ResRobot.js:77
+[  239467ms] [LOG] MMM-ResRobot received a socket notification: DEPARTURES - Payload: [object Object] @ http://192.168.86.44:8080/modules/MMM-ResRobot/MMM-ResRobot.js:77
+[  245076ms] [INFO] [calendar] sorting events count=0 @ http://192.168.86.44:8080/defaultmodules/calendar/calendar.js:564
+[  247372ms] [LOG] MMM-ResRobot received a socket notification: DEPARTURES - Payload: [object Object] @ http://192.168.86.44:8080/modules/MMM-ResRobot/MMM-ResRobot.js:77
+[  247378ms] [LOG] MMM-ResRobot received a socket notification: DEPARTURES - Payload: [object Object] @ http://192.168.86.44:8080/modules/MMM-ResRobot/MMM-ResRobot.js:77
+[  247494ms] [LOG] MMM-ResRobot received a socket notification: DEPARTURES - Payload: [object Object] @ http://192.168.86.44:8080/modules/MMM-ResRobot/MMM-ResRobot.js:77
+[  247502ms] [LOG] MMM-ResRobot received a socket notification: DEPARTURES - Payload: [object Object] @ http://192.168.86.44:8080/modules/MMM-ResRobot/MMM-ResRobot.js:77
+[  283684ms] [INFO] [calendar] sorting events count=0 @ http://192.168.86.44:8080/defaultmodules/calendar/calendar.js:564
+[  283684ms] [INFO] [calendar] slicing events total maxCount=10 @ http://192.168.86.44:8080/defaultmodules/calendar/calendar.js:598

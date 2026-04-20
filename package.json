@@ -1,0 +1,8 @@
+{
+  "name": "MMM-ModuleCarousel",
+  "version": "1.0.0",
+  "description": "MagicMirror module that carousels other modules in the same position.",
+  "main": "MMM-ModuleCarousel.js",
+  "author": "",
+  "license": "MIT"
+}

@@ -1,0 +1,18 @@
+.mmm-carousel-indicator {
+	display: flex;
+	justify-content: center;
+	gap: 8px;
+	padding: 6px 0 2px;
+}
+
+.mmm-carousel-dot {
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background-color: rgba(255, 255, 255, 0.3);
+	transition: background-color 0.3s ease;
+}
+
+.mmm-carousel-dot.active {
+	background-color: rgba(255, 255, 255, 0.9);
+}

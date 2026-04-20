@@ -71,6 +71,13 @@ Module.register("MMM-ModuleCarousel", {
 		});
 	},
 
+	_getRegionContainer(mod) {
+		const pos = mod.data.position; // e.g. "top_left"
+		const selector = ".region." + pos.replace("_", ".");
+		const region = document.querySelector(selector);
+		return region ? region.querySelector(".container") : null;
+	},
+
 	_resolveModules(entries) {
 		const all = MM.getModules();
 		const seen = new Set();

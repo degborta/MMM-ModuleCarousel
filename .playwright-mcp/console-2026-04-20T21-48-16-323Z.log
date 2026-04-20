@@ -1,0 +1,194 @@
+[     226ms] [INFO] Initializing MagicMirror². @ http://192.168.86.44:8080/js/main.js:581
+[     242ms] [LOG] [translator] Loading core translation file: translations/sv.json @ http://192.168.86.44:8080/js/translator.js:105
+[     252ms] [LOG] [translator] Loading core translation fallback file: translations/en.json @ http://192.168.86.44:8080/js/translator.js:121
+[     298ms] [LOG] Load script: defaultmodules/alert/alert.js @ http://192.168.86.44:8080/js/loader.js:202
+[     315ms] [LOG] Module registered: alert @ http://192.168.86.44:8080/js/module.js:487
+[     316ms] [INFO] Bootstrapping module: alert @ http://192.168.86.44:8080/js/loader.js:175
+[     316ms] [LOG] Load script: defaultmodules/alert/notificationFx.js @ http://192.168.86.44:8080/js/loader.js:202
+[     325ms] [LOG] Scripts loaded for: alert @ http://192.168.86.44:8080/js/loader.js:179
+[     325ms] [LOG] Load stylesheet: css/font-awesome.css @ http://192.168.86.44:8080/js/loader.js:218
+[     385ms] [LOG] Load stylesheet: defaultmodules/alert/./styles/notificationFx.css @ http://192.168.86.44:8080/js/loader.js:218
+[     399ms] [LOG] Load stylesheet: defaultmodules/alert/./styles/center.css @ http://192.168.86.44:8080/js/loader.js:218
+[     413ms] [LOG] Styles loaded for: alert @ http://192.168.86.44:8080/js/loader.js:182
+[     413ms] [LOG] [translator] alert - Load translation fallback: translations/bg.json @ http://192.168.86.44:8080/js/translator.js:88
+[     421ms] [LOG] Translations loaded for: alert @ http://192.168.86.44:8080/js/loader.js:185
+[     421ms] [LOG] Load script: defaultmodules/updatenotification/updatenotification.js @ http://192.168.86.44:8080/js/loader.js:202
+[     429ms] [LOG] Module registered: updatenotification @ http://192.168.86.44:8080/js/module.js:487
+[     429ms] [INFO] Bootstrapping module: updatenotification @ http://192.168.86.44:8080/js/loader.js:175
+[     429ms] [LOG] Scripts loaded for: updatenotification @ http://192.168.86.44:8080/js/loader.js:179
+[     429ms] [LOG] Load stylesheet: defaultmodules/updatenotification/updatenotification.css @ http://192.168.86.44:8080/js/loader.js:218
+[     441ms] [LOG] Styles loaded for: updatenotification @ http://192.168.86.44:8080/js/loader.js:182
+[     441ms] [LOG] Translations loaded for: updatenotification @ http://192.168.86.44:8080/js/loader.js:185
+[     441ms] [LOG] Load script: defaultmodules/clock/clock.js @ http://192.168.86.44:8080/js/loader.js:202
+[     454ms] [LOG] Module registered: clock @ http://192.168.86.44:8080/js/module.js:487
+[     454ms] [INFO] Bootstrapping module: clock @ http://192.168.86.44:8080/js/loader.js:175
+[     454ms] [LOG] Load script: node_modules/moment/min/moment-with-locales.js @ http://192.168.86.44:8080/js/loader.js:202
+[     724ms] [LOG] Load script: node_modules/moment-timezone/builds/moment-timezone-with-data.js @ http://192.168.86.44:8080/js/loader.js:202
+[     976ms] [LOG] Load script: node_modules/suncalc/suncalc.js @ http://192.168.86.44:8080/js/loader.js:202
+[     988ms] [LOG] Scripts loaded for: clock @ http://192.168.86.44:8080/js/loader.js:179
+[     988ms] [LOG] Load stylesheet: defaultmodules/clock/clock_styles.css @ http://192.168.86.44:8080/js/loader.js:218
+[     999ms] [LOG] File already loaded: font-awesome.css @ http://192.168.86.44:8080/js/loader.js:271
+[     999ms] [LOG] Styles loaded for: clock @ http://192.168.86.44:8080/js/loader.js:182
+[     999ms] [LOG] Translations loaded for: clock @ http://192.168.86.44:8080/js/loader.js:185
+[     999ms] [LOG] Load script: defaultmodules/calendar/calendar.js @ http://192.168.86.44:8080/js/loader.js:202
+[    1016ms] [LOG] Module registered: calendar @ http://192.168.86.44:8080/js/module.js:487
+[    1016ms] [INFO] Bootstrapping module: calendar @ http://192.168.86.44:8080/js/loader.js:175
+[    1017ms] [LOG] Load script: defaultmodules/calendar/calendarutils.js @ http://192.168.86.44:8080/js/loader.js:202
+[    1026ms] [LOG] File already loaded: moment.js @ http://192.168.86.44:8080/js/loader.js:271
+[    1026ms] [LOG] File already loaded: moment-timezone.js @ http://192.168.86.44:8080/js/loader.js:271
+[    1026ms] [LOG] Scripts loaded for: calendar @ http://192.168.86.44:8080/js/loader.js:179
+[    1026ms] [LOG] Load stylesheet: defaultmodules/calendar/calendar.css @ http://192.168.86.44:8080/js/loader.js:218
+[    1033ms] [LOG] File already loaded: font-awesome.css @ http://192.168.86.44:8080/js/loader.js:271
+[    1033ms] [LOG] Styles loaded for: calendar @ http://192.168.86.44:8080/js/loader.js:182
+[    1033ms] [LOG] Translations loaded for: calendar @ http://192.168.86.44:8080/js/loader.js:185
+[    1033ms] [LOG] Load script: defaultmodules/compliments/compliments.js @ http://192.168.86.44:8080/js/loader.js:202
+[    1050ms] [LOG] Module registered: compliments @ http://192.168.86.44:8080/js/module.js:487
+[    1051ms] [INFO] Bootstrapping module: compliments @ http://192.168.86.44:8080/js/loader.js:175
+[    1051ms] [LOG] Load script: node_modules/croner/dist/croner.umd.js @ http://192.168.86.44:8080/js/loader.js:202
+[    1070ms] [LOG] File already loaded: moment.js @ http://192.168.86.44:8080/js/loader.js:271
+[    1070ms] [LOG] Scripts loaded for: compliments @ http://192.168.86.44:8080/js/loader.js:179
+[    1071ms] [LOG] Styles loaded for: compliments @ http://192.168.86.44:8080/js/loader.js:182
+[    1071ms] [LOG] Translations loaded for: compliments @ http://192.168.86.44:8080/js/loader.js:185
+[    1071ms] [LOG] Load script: defaultmodules/weather/weather.js @ http://192.168.86.44:8080/js/loader.js:202
+[    1091ms] [LOG] Module registered: weather @ http://192.168.86.44:8080/js/module.js:487
+[    1091ms] [INFO] Bootstrapping module: weather @ http://192.168.86.44:8080/js/loader.js:175
+[    1091ms] [LOG] File already loaded: moment.js @ http://192.168.86.44:8080/js/loader.js:271
+[    1091ms] [LOG] Load script: defaultmodules/weather/weatherutils.js @ http://192.168.86.44:8080/js/loader.js:202
+[    1103ms] [LOG] Load script: defaultmodules/weather/weatherobject.js @ http://192.168.86.44:8080/js/loader.js:202
+[    1117ms] [LOG] File already loaded: suncalc.js @ http://192.168.86.44:8080/js/loader.js:271
+[    1117ms] [LOG] Scripts loaded for: weather @ http://192.168.86.44:8080/js/loader.js:179
+[    1117ms] [LOG] File already loaded: font-awesome.css @ http://192.168.86.44:8080/js/loader.js:271
+[    1117ms] [LOG] Load stylesheet: node_modules/weathericons/css/weather-icons.css @ http://192.168.86.44:8080/js/loader.js:218
+[    1148ms] [LOG] Load stylesheet: defaultmodules/weather/weather.css @ http://192.168.86.44:8080/js/loader.js:218
+[    1157ms] [LOG] Styles loaded for: weather @ http://192.168.86.44:8080/js/loader.js:182
+[    1157ms] [LOG] Translations loaded for: weather @ http://192.168.86.44:8080/js/loader.js:185
+[    1157ms] [INFO] Bootstrapping module: weather @ http://192.168.86.44:8080/js/loader.js:175
+[    1157ms] [LOG] File already loaded: moment.js @ http://192.168.86.44:8080/js/loader.js:271
+[    1157ms] [LOG] File already loaded: weatherutils.js @ http://192.168.86.44:8080/js/loader.js:271
+[    1157ms] [LOG] File already loaded: weatherobject.js @ http://192.168.86.44:8080/js/loader.js:271
+[    1157ms] [LOG] File already loaded: suncalc.js @ http://192.168.86.44:8080/js/loader.js:271
+[    1157ms] [LOG] Scripts loaded for: weather @ http://192.168.86.44:8080/js/loader.js:179
+[    1157ms] [LOG] File already loaded: font-awesome.css @ http://192.168.86.44:8080/js/loader.js:271
+[    1158ms] [LOG] File already loaded: weather-icons.css @ http://192.168.86.44:8080/js/loader.js:271
+[    1158ms] [LOG] File already loaded: weather.css @ http://192.168.86.44:8080/js/loader.js:271
+[    1158ms] [LOG] Styles loaded for: weather @ http://192.168.86.44:8080/js/loader.js:182
+[    1158ms] [LOG] Translations loaded for: weather @ http://192.168.86.44:8080/js/loader.js:185
+[    1158ms] [LOG] Load script: defaultmodules/newsfeed/newsfeed.js @ http://192.168.86.44:8080/js/loader.js:202
+[    1183ms] [LOG] Module registered: newsfeed @ http://192.168.86.44:8080/js/module.js:487
+[    1183ms] [INFO] Bootstrapping module: newsfeed @ http://192.168.86.44:8080/js/loader.js:175
+[    1183ms] [LOG] File already loaded: moment.js @ http://192.168.86.44:8080/js/loader.js:271
+[    1183ms] [LOG] Scripts loaded for: newsfeed @ http://192.168.86.44:8080/js/loader.js:179
+[    1183ms] [LOG] Load stylesheet: defaultmodules/newsfeed/newsfeed.css @ http://192.168.86.44:8080/js/loader.js:218
+[    1191ms] [LOG] Styles loaded for: newsfeed @ http://192.168.86.44:8080/js/loader.js:182
+[    1191ms] [LOG] Translations loaded for: newsfeed @ http://192.168.86.44:8080/js/loader.js:185
+[    1191ms] [LOG] Load script: modules/MMM-ResRobot/MMM-ResRobot.js @ http://192.168.86.44:8080/js/loader.js:202
+[    1202ms] [LOG] Module registered: MMM-ResRobot @ http://192.168.86.44:8080/js/module.js:487
+[    1203ms] [INFO] Bootstrapping module: MMM-ResRobot @ http://192.168.86.44:8080/js/loader.js:175
+[    1203ms] [LOG] File already loaded: moment.js @ http://192.168.86.44:8080/js/loader.js:271
+[    1203ms] [LOG] Scripts loaded for: MMM-ResRobot @ http://192.168.86.44:8080/js/loader.js:179
+[    1203ms] [LOG] Load stylesheet: modules/MMM-ResRobot/MMM-ResRobot.css @ http://192.168.86.44:8080/js/loader.js:218
+[    1212ms] [LOG] File already loaded: font-awesome.css @ http://192.168.86.44:8080/js/loader.js:271
+[    1212ms] [LOG] Styles loaded for: MMM-ResRobot @ http://192.168.86.44:8080/js/loader.js:182
+[    1213ms] [LOG] [translator] MMM-ResRobot - Load translation: translations/sv.json @ http://192.168.86.44:8080/js/translator.js:88
+[    1220ms] [LOG] [translator] MMM-ResRobot - Load translation fallback: translations/en.json @ http://192.168.86.44:8080/js/translator.js:88
+[    1227ms] [LOG] Translations loaded for: MMM-ResRobot @ http://192.168.86.44:8080/js/loader.js:185
+[    1227ms] [INFO] Bootstrapping module: MMM-ResRobot @ http://192.168.86.44:8080/js/loader.js:175
+[    1227ms] [LOG] File already loaded: moment.js @ http://192.168.86.44:8080/js/loader.js:271
+[    1227ms] [LOG] Scripts loaded for: MMM-ResRobot @ http://192.168.86.44:8080/js/loader.js:179
+[    1227ms] [LOG] File already loaded: MMM-ResRobot.css @ http://192.168.86.44:8080/js/loader.js:271
+[    1227ms] [LOG] File already loaded: font-awesome.css @ http://192.168.86.44:8080/js/loader.js:271
+[    1227ms] [LOG] Styles loaded for: MMM-ResRobot @ http://192.168.86.44:8080/js/loader.js:182
+[    1228ms] [LOG] [translator] MMM-ResRobot - Load translation: translations/sv.json @ http://192.168.86.44:8080/js/translator.js:88
+[    1228ms] [LOG] [translator] MMM-ResRobot - Load translation fallback: translations/en.json @ http://192.168.86.44:8080/js/translator.js:88
+[    1228ms] [LOG] Translations loaded for: MMM-ResRobot @ http://192.168.86.44:8080/js/loader.js:185
+[    1228ms] [LOG] Load script: modules/MMM-SkolmatenMatilda/MMM-SkolmatenMatilda.js @ http://192.168.86.44:8080/js/loader.js:202
+[    1245ms] [LOG] Module registered: MMM-SkolmatenMatilda @ http://192.168.86.44:8080/js/module.js:487
+[    1245ms] [INFO] Bootstrapping module: MMM-SkolmatenMatilda @ http://192.168.86.44:8080/js/loader.js:175
+[    1245ms] [LOG] Scripts loaded for: MMM-SkolmatenMatilda @ http://192.168.86.44:8080/js/loader.js:179
+[    1246ms] [LOG] Load stylesheet: modules/MMM-SkolmatenMatilda/MMM-SkolmatenMatilda.css @ http://192.168.86.44:8080/js/loader.js:218
+[    1254ms] [LOG] Styles loaded for: MMM-SkolmatenMatilda @ http://192.168.86.44:8080/js/loader.js:182
+[    1254ms] [LOG] Translations loaded for: MMM-SkolmatenMatilda @ http://192.168.86.44:8080/js/loader.js:185
+[    1254ms] [LOG] Load script: modules/MMM-SheetsMealPlan/MMM-SheetsMealPlan.js @ http://192.168.86.44:8080/js/loader.js:202
+[    1267ms] [LOG] Module registered: MMM-SheetsMealPlan @ http://192.168.86.44:8080/js/module.js:487
+[    1267ms] [INFO] Bootstrapping module: MMM-SheetsMealPlan @ http://192.168.86.44:8080/js/loader.js:175
+[    1267ms] [LOG] Scripts loaded for: MMM-SheetsMealPlan @ http://192.168.86.44:8080/js/loader.js:179
+[    1267ms] [LOG] Load stylesheet: modules/MMM-SheetsMealPlan/MMM-SheetsMealPlan.css @ http://192.168.86.44:8080/js/loader.js:218
+[    1280ms] [LOG] Styles loaded for: MMM-SheetsMealPlan @ http://192.168.86.44:8080/js/loader.js:182
+[    1280ms] [LOG] Translations loaded for: MMM-SheetsMealPlan @ http://192.168.86.44:8080/js/loader.js:185
+[    1280ms] [LOG] Load script: modules/MMM-CoinMarketCap/MMM-CoinMarketCap.js @ http://192.168.86.44:8080/js/loader.js:202
+[    1295ms] [LOG] Check MagicMirror² version for module 'MMM-CoinMarketCap' - Minimum version:  2.2.1 - Current version: 2.35.0 @ http://192.168.86.44:8080/js/module.js:479
+[    1295ms] [LOG] Version is ok! @ http://192.168.86.44:8080/js/module.js:481
+[    1296ms] [LOG] Module registered: MMM-CoinMarketCap @ http://192.168.86.44:8080/js/module.js:487
+[    1296ms] [INFO] Bootstrapping module: MMM-CoinMarketCap @ http://192.168.86.44:8080/js/loader.js:175
+[    1296ms] [LOG] Load script: modules/MMM-CoinMarketCap/scripts/axis.js @ http://192.168.86.44:8080/js/loader.js:202
+[    1303ms] [LOG] Scripts loaded for: MMM-CoinMarketCap @ http://192.168.86.44:8080/js/loader.js:179
+[    1304ms] [LOG] Load stylesheet: modules/MMM-CoinMarketCap/MMM-CoinMarketCap.css @ http://192.168.86.44:8080/js/loader.js:218
+[    1315ms] [LOG] Styles loaded for: MMM-CoinMarketCap @ http://192.168.86.44:8080/js/loader.js:182
+[    1315ms] [LOG] [translator] MMM-CoinMarketCap - Load translation fallback: translations/en.json @ http://192.168.86.44:8080/js/translator.js:88
+[    1327ms] [LOG] Translations loaded for: MMM-CoinMarketCap @ http://192.168.86.44:8080/js/loader.js:185
+[    1327ms] [LOG] Load script: modules/MMM-Todoist/MMM-Todoist.js @ http://192.168.86.44:8080/js/loader.js:202
+[    1343ms] [LOG] Module registered: MMM-Todoist @ http://192.168.86.44:8080/js/module.js:487
+[    1343ms] [INFO] Bootstrapping module: MMM-Todoist @ http://192.168.86.44:8080/js/loader.js:175
+[    1343ms] [LOG] Scripts loaded for: MMM-Todoist @ http://192.168.86.44:8080/js/loader.js:179
+[    1343ms] [LOG] Load stylesheet: modules/MMM-Todoist/MMM-Todoist.css @ http://192.168.86.44:8080/js/loader.js:218
+[    1362ms] [LOG] Styles loaded for: MMM-Todoist @ http://192.168.86.44:8080/js/loader.js:182
+[    1362ms] [LOG] [translator] MMM-Todoist - Load translation fallback: translations/en.json @ http://192.168.86.44:8080/js/translator.js:88
+[    1371ms] [LOG] Translations loaded for: MMM-Todoist @ http://192.168.86.44:8080/js/loader.js:185
+[    1371ms] [LOG] Load script: modules/MMM-ModuleCarousel/MMM-ModuleCarousel.js @ http://192.168.86.44:8080/js/loader.js:202
+[    1381ms] [LOG] Module registered: MMM-ModuleCarousel @ http://192.168.86.44:8080/js/module.js:487
+[    1381ms] [INFO] Bootstrapping module: MMM-ModuleCarousel @ http://192.168.86.44:8080/js/loader.js:175
+[    1381ms] [LOG] Scripts loaded for: MMM-ModuleCarousel @ http://192.168.86.44:8080/js/loader.js:179
+[    1381ms] [LOG] Load stylesheet: modules/MMM-ModuleCarousel/MMM-ModuleCarousel.css @ http://192.168.86.44:8080/js/loader.js:218
+[    1398ms] [LOG] Styles loaded for: MMM-ModuleCarousel @ http://192.168.86.44:8080/js/loader.js:182
+[    1398ms] [LOG] Translations loaded for: MMM-ModuleCarousel @ http://192.168.86.44:8080/js/loader.js:185
+[    1398ms] [LOG] Load stylesheet: config/custom.css @ http://192.168.86.44:8080/js/loader.js:218
+[    1406ms] [INFO] Starting module: alert @ http://192.168.86.44:8080/defaultmodules/alert/alert.js:44
+[    1407ms] [INFO] Starting module: updatenotification @ http://192.168.86.44:8080/defaultmodules/updatenotification/updatenotification.js:18
+[    1407ms] [INFO] Starting module: clock @ http://192.168.86.44:8080/defaultmodules/clock/clock.js:42
+[    1408ms] [INFO] Starting module: calendar @ http://192.168.86.44:8080/defaultmodules/calendar/calendar.js:93
+[    1412ms] [INFO] Starting module: compliments @ http://192.168.86.44:8080/defaultmodules/compliments/compliments.js:38
+[    1412ms] [LOG] [weather] Initializing server-side provider with instance ID: module_5_weather_1776721697735 @ http://192.168.86.44:8080/defaultmodules/weather/weather.js:117
+[    1412ms] [LOG] [weather] Initializing server-side provider with instance ID: module_6_weather_1776721697735 @ http://192.168.86.44:8080/defaultmodules/weather/weather.js:117
+[    1413ms] [INFO] Starting module: newsfeed @ http://192.168.86.44:8080/defaultmodules/newsfeed/newsfeed.js:66
+[    1413ms] [INFO] Starting module: MMM-ResRobot @ http://192.168.86.44:8080/modules/MMM-ResRobot/MMM-ResRobot.js:68
+[    1413ms] [INFO] Starting module: MMM-ResRobot @ http://192.168.86.44:8080/modules/MMM-ResRobot/MMM-ResRobot.js:68
+[    1415ms] [LOG] MMM-CoinMarketCap: Request sent for currency listings. @ http://192.168.86.44:8080/modules/MMM-CoinMarketCap/MMM-CoinMarketCap.js:1323
+[    1415ms] [INFO] Starting module: MMM-Todoist @ http://192.168.86.44:8080/modules/MMM-Todoist/MMM-Todoist.js:111
+[    1415ms] [INFO] All modules started! @ http://192.168.86.44:8080/js/main.js:600
+[    1421ms] [INFO] [calendar] sorting events count=0 @ http://192.168.86.44:8080/defaultmodules/calendar/calendar.js:564
+[    1421ms] [INFO] [calendar] slicing events total maxCount=10 @ http://192.168.86.44:8080/defaultmodules/calendar/calendar.js:598
+[    1490ms] TypeError: this._getRegionContainer is not a function
+    at http://192.168.86.44:8080/modules/MMM-ModuleCarousel/MMM-ModuleCarousel.js:51:27
+    at Array.forEach (<anonymous>)
+    at Class.notificationReceived (http://192.168.86.44:8080/modules/MMM-ModuleCarousel/MMM-ModuleCarousel.js:24:22)
+    at sendNotification (http://192.168.86.44:8080/js/main.js:101:12)
+    at http://192.168.86.44:8080/js/main.js:70:4
+[    1530ms] [INFO] [calendar] sorting events count=0 @ http://192.168.86.44:8080/defaultmodules/calendar/calendar.js:564
+[    1530ms] [INFO] [calendar] sorting events count=0 @ http://192.168.86.44:8080/defaultmodules/calendar/calendar.js:564
+[    1530ms] [INFO] [calendar] slicing events total maxCount=10 @ http://192.168.86.44:8080/defaultmodules/calendar/calendar.js:598
+[    1683ms] [LOG] MMM-CoinMarketCap: INIT received from: module_12_MMM-CoinMarketCap_01143425753983629. @ http://192.168.86.44:8080/modules/MMM-CoinMarketCap/MMM-CoinMarketCap.js:1323
+[    1686ms] [LOG] MMM-CoinMarketCap: node_helper.js loaded successfully. @ http://192.168.86.44:8080/modules/MMM-CoinMarketCap/MMM-CoinMarketCap.js:1323
+[    3492ms] [LOG] [weather] Provider initialized, location: Sandvikens kommun, SE-X @ http://192.168.86.44:8080/defaultmodules/weather/weather.js:176
+[    3501ms] [LOG] [weather] Provider initialized, location: Sandvikens kommun, SE-X @ http://192.168.86.44:8080/defaultmodules/weather/weather.js:176
+[    3662ms] [LOG] MMM-ResRobot received a socket notification: DEPARTURES - Payload: [object Object] @ http://192.168.86.44:8080/modules/MMM-ResRobot/MMM-ResRobot.js:77
+[    3665ms] [LOG] MMM-ResRobot received a socket notification: DEPARTURES - Payload: [object Object] @ http://192.168.86.44:8080/modules/MMM-ResRobot/MMM-ResRobot.js:77
+[    3950ms] [LOG] MMM-ResRobot received a socket notification: DEPARTURES - Payload: [object Object] @ http://192.168.86.44:8080/modules/MMM-ResRobot/MMM-ResRobot.js:77
+[    3954ms] [LOG] MMM-ResRobot received a socket notification: DEPARTURES - Payload: [object Object] @ http://192.168.86.44:8080/modules/MMM-ResRobot/MMM-ResRobot.js:77
+[    4130ms] [LOG] [weather] New weather information available. @ http://192.168.86.44:8080/defaultmodules/weather/weather.js:260
+[    4364ms] [LOG] [weather] New weather information available. @ http://192.168.86.44:8080/defaultmodules/weather/weather.js:260
+[    8576ms] [LOG] MMM-CoinMarketCap: Listings retrieved successfully after 1 attempt(s). @ http://192.168.86.44:8080/modules/MMM-CoinMarketCap/MMM-CoinMarketCap.js:1323
+[    8659ms] [LOG] MMM-CoinMarketCap: Update scheduled to run automatically every 10 minutes. @ http://192.168.86.44:8080/modules/MMM-CoinMarketCap/MMM-CoinMarketCap.js:1323
+[    8659ms] [LOG] MMM-CoinMarketCap: Update started. @ http://192.168.86.44:8080/modules/MMM-CoinMarketCap/MMM-CoinMarketCap.js:1323
+[    8829ms] [LOG] MMM-CoinMarketCap: Currency Update Received for IDs: 1,1027,30933 after 1 attempt(s). @ http://192.168.86.44:8080/modules/MMM-CoinMarketCap/MMM-CoinMarketCap.js:1323
+[    8882ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://192.168.86.44:8080/modules/MMM-CoinMarketCap/MMM-CoinMarketCap.js:1234
+[    8904ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://192.168.86.44:8080/modules/MMM-CoinMarketCap/MMM-CoinMarketCap.js:1234
+[   50050ms] [LOG] MMM-ResRobot received a socket notification: DEPARTURES - Payload: [object Object] @ http://192.168.86.44:8080/modules/MMM-ResRobot/MMM-ResRobot.js:77
+[   50052ms] [LOG] MMM-ResRobot received a socket notification: DEPARTURES - Payload: [object Object] @ http://192.168.86.44:8080/modules/MMM-ResRobot/MMM-ResRobot.js:77
+[   50297ms] [LOG] MMM-ResRobot received a socket notification: DEPARTURES - Payload: [object Object] @ http://192.168.86.44:8080/modules/MMM-ResRobot/MMM-ResRobot.js:77
+[   50300ms] [LOG] MMM-ResRobot received a socket notification: DEPARTURES - Payload: [object Object] @ http://192.168.86.44:8080/modules/MMM-ResRobot/MMM-ResRobot.js:77
+[  103681ms] [INFO] [calendar] sorting events count=0 @ http://192.168.86.44:8080/defaultmodules/calendar/calendar.js:564
+[  103681ms] [INFO] [calendar] slicing events total maxCount=10 @ http://192.168.86.44:8080/defaultmodules/calendar/calendar.js:598
+[  110062ms] [LOG] MMM-ResRobot received a socket notification: DEPARTURES - Payload: [object Object] @ http://192.168.86.44:8080/modules/MMM-ResRobot/MMM-ResRobot.js:77
+[  110062ms] [LOG] MMM-ResRobot received a socket notification: DEPARTURES - Payload: [object Object] @ http://192.168.86.44:8080/modules/MMM-ResRobot/MMM-ResRobot.js:77
+[  110322ms] [LOG] MMM-ResRobot received a socket notification: DEPARTURES - Payload: [object Object] @ http://192.168.86.44:8080/modules/MMM-ResRobot/MMM-ResRobot.js:77
+[  110323ms] [LOG] MMM-ResRobot received a socket notification: DEPARTURES - Payload: [object Object] @ http://192.168.86.44:8080/modules/MMM-ResRobot/MMM-ResRobot.js:77

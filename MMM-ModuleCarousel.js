@@ -38,8 +38,12 @@ Module.register("MMM-ModuleCarousel", {
 			const indicator = showIndicator ? this._createIndicator(members.length, groupIndex) : null;
 
 			if (indicator) {
-				const container = this._getRegionContainer(members[0]);
-				if (container) container.appendChild(indicator);
+				// Insert directly after the last member's wrapper so it sits
+				// adjacent to the group in the column, not at the very bottom.
+				const lastWrapper = document.getElementById(members[members.length - 1].identifier);
+				if (lastWrapper && lastWrapper.parentNode) {
+					lastWrapper.parentNode.insertBefore(indicator, lastWrapper.nextSibling);
+				}
 			}
 
 			this.groupStates[groupIndex] = { members, current: 0, transition, indicator };
@@ -57,20 +61,34 @@ Module.register("MMM-ModuleCarousel", {
 		});
 	},
 
-	_resolveModules(names) {
+	_resolveModules(entries) {
 		const all = MM.getModules();
-		return names.flatMap(name => {
-			const found = all.filter(m => m.name === name);
-			if (found.length === 0) Log.warn(`MMM-ModuleCarousel: module "${name}" not found.`);
-			return found;
-		});
-	},
+		const seen = new Set();
 
-	_getRegionContainer(mod) {
-		const pos = mod.data.position; // e.g. "top_left"
-		const selector = ".region." + pos.replace("_", ".");
-		const region = document.querySelector(selector);
-		return region ? region.querySelector(".container") : null;
+		return entries.flatMap(entry => {
+			const isObj = typeof entry === "object";
+			const name = isObj ? entry.name : entry;
+			const classes = isObj && entry.classes ? entry.classes.trim().split(/\s+/) : null;
+
+			const found = all.filter(m => {
+				if (m.name !== name) return false;
+				if (!classes) return true;
+				const modClasses = (m.data.classes || "").trim().split(/\s+/);
+				return classes.every(c => modClasses.includes(c));
+			});
+
+			if (found.length === 0) {
+				Log.warn(`MMM-ModuleCarousel: module "${name}"${classes ? ` (classes: ${classes.join(" ")})` : ""} not found.`);
+			}
+
+			// Deduplicate — a plain name match on a module with multiple instances
+			// should only include each instance once.
+			return found.filter(m => {
+				if (seen.has(m.identifier)) return false;
+				seen.add(m.identifier);
+				return true;
+			});
+		});
 	},
 
 	_createIndicator(count, groupIndex) {

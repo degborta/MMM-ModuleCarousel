@@ -53,6 +53,8 @@ Module.register("MMM-ModuleCarousel", {
 				mod.hide(0);
 			});
 
+			this._lockGroupWidth(members);
+
 			const timer = setInterval(() => {
 				this._advance(groupIndex);
 			}, interval);
@@ -103,6 +105,23 @@ Module.register("MMM-ModuleCarousel", {
 		}
 
 		return wrapper;
+	},
+
+	_lockGroupWidth(members) {
+		// Measure after next paint when all modules are fully rendered.
+		requestAnimationFrame(() => {
+			const widths = members.map(m => {
+				const el = document.getElementById(m.identifier);
+				return el ? el.offsetWidth : 0;
+			});
+			const maxWidth = Math.max(...widths);
+			if (maxWidth > 0) {
+				members.forEach(m => {
+					const el = document.getElementById(m.identifier);
+					if (el) el.style.minWidth = maxWidth + "px";
+				});
+			}
+		});
 	},
 
 	_updateIndicator(indicator, index) {
